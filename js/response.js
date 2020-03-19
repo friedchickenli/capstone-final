@@ -1,4 +1,5 @@
-var responses=[
+$( document ).ready(function() {
+  var responses=[
     {
     header: "Who are you as a designer?",
     answer: `<p> I consider myself as a <mark><span>graphic designer</span></mark>, and a part-time <mark><span>human-centered
@@ -51,3 +52,8 @@ var responses=[
     </div>
   `)
   })
+  
+  console.log( "ready!" );
+});
+
+
